@@ -26,7 +26,7 @@ body {
     border: none;
     background-color: inherit;
     padding: 14px 28px;
-    font-size: 16px;
+    font-size: 11px;
     cursor: pointer;
     display: inline-block;
 }
@@ -42,10 +42,11 @@ body {
 
 
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 4;
     justify-self: end;
+    align-self: end;
 
 }
 
@@ -124,6 +125,9 @@ div3 {
     align-self: start;
     justify-self: start;
     margin-left: 60px;
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 
@@ -199,7 +203,7 @@ hr {
     grid-column-end: 1;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 18px;
+    font-size: 12px;
 
 }
 .r {
@@ -207,14 +211,14 @@ hr {
     grid-column-end: 2;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 18px;
+    font-size: 12px;
 }
 .v {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 4;
-    font-size: 18px;
+    font-size: 12px;
 }
 
 .star {
@@ -223,7 +227,7 @@ hr {
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: center;
-    margin-left: 17px;
+    margin-left: 12px;
 }
 .re {
     grid-column-start: 2;
@@ -231,7 +235,7 @@ hr {
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: center;
-    margin-left: 17px;
+    margin-left: 12px;
 }
 .eye {
     grid-column-start: 3;
@@ -239,7 +243,7 @@ hr {
     grid-row-start: 2;
     grid-row-end: 2;
     align-self: center;
-    margin-left: 17px;
+    margin-left: 12px;
 }
 
 #mybox {
@@ -248,3 +252,4 @@ hr {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
